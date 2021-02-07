@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { db } from '../src/config';
+import { db } from '../config';
 
 // const DATABASE_URL = `mongodb://${db.user}:${encodeURIComponent(db.password)}@${db.host}:${db.port}/${db.name}`;
 const DATABASE_URL = `mongodb+srv://admin:${db.password}@cluster0.drcmi.mongodb.net/${db.name}?retryWrites=true&w=majority`;
